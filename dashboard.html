@@ -87,14 +87,17 @@
       <!-- CONTENT BODY -->
       <main class="dashboard-content-area">
 
-        <!-- WELCOME BANNER -->
-        <div style="background: #ffffff; border: 1px solid var(--border-light); border-radius: var(--radius-lg); padding: 1.5rem 2rem; display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 1rem;">
+        <!-- WELCOME BANNER WITH TRAIN BACKGROUND -->
+        <div style="background: linear-gradient(135deg, rgba(15, 23, 42, 0.88), rgba(30, 58, 138, 0.82)), url('assets/images/images.jpg') center/cover no-repeat; border-radius: var(--radius-lg); padding: 1.8rem 2.2rem; display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 1rem; color: #ffffff; box-shadow: var(--shadow-md);">
           <div>
-            <h2 style="font-size: 1.5rem; font-weight: 800; color: #0f172a;">Welcome back, <span class="dyn-user-name">Aarav</span>! 👋</h2>
-            <p style="color: var(--text-muted); font-size: 0.95rem;">You have 1 upcoming journey scheduled. Have a safe journey!</p>
+            <div style="display: inline-flex; align-items: center; gap: 0.4rem; background: rgba(56, 189, 248, 0.2); color: #38bdf8; font-size: 0.75rem; font-weight: 700; padding: 0.25rem 0.75rem; border-radius: 9999px; margin-bottom: 0.5rem; border: 1px solid rgba(56, 189, 248, 0.3);">
+              <span>●</span> BHARATrail Live Express Portal
+            </div>
+            <h2 style="font-size: 1.6rem; font-weight: 800; color: #ffffff;">Welcome back, <span class="dyn-user-name">Aarav</span>! 👋</h2>
+            <p style="color: #cbd5e1; font-size: 0.95rem;">You have 1 upcoming journey scheduled. Have a safe journey!</p>
           </div>
           <div style="display: flex; gap: 0.75rem;">
-            <a href="index.html#pnrSection" class="btn btn-secondary btn-sm">Check PNR</a>
+            <a href="index.html#pnrSection" class="btn btn-secondary btn-sm" style="background: rgba(255,255,255,0.15); color: #ffffff; border: 1px solid rgba(255,255,255,0.3); backdrop-filter: blur(8px);">Check PNR</a>
             <a href="index.html" class="btn btn-primary btn-sm">Explore Trains</a>
           </div>
         </div>
